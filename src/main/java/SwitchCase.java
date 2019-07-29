@@ -1,33 +1,32 @@
 public class SwitchCase {
     public static void main(String[] args) {
-        int day = 1;
+        int day = 10;
         String dayString = "";
         switch (day) {
-            //case statements within the switch block
             case 1:
-                dayString = "1 - Sunday";
+                dayString = "Sunday";
                 break;
             case 2:
-                dayString = "2 - Monday";
+                dayString = "Monday";
                 break;
             case 3:
-                dayString = "3 - Tuesday";
+                dayString = "Tuesday";
                 break;
             case 4:
-                dayString = "4 - Wednesday";
+                dayString = "Wednesday";
                 break;
             case 5:
-                dayString = "5 - Thursday";
+                dayString = "Thursday";
                 break;
             case 6:
-                dayString = "6 - Friday";
+                dayString = "Friday";
                 break;
             case 7:
-                dayString = "7 - Saturday";
+                dayString = "Saturday";
                 break;
 
             default:
-                System.out.println("Invalid Day!");
+                System.out.println("Oops, Invalid Day! since given number is not in [1,7]");
         }
         System.out.println(dayString);
     }
