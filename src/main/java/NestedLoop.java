@@ -1,3 +1,16 @@
+/* Write a java programme to print the following patten
+
+^ ^ ^ ^ ^
+^ ^ ^ ^ ^
+^ ^ ^ ^ ^
+^ ^ ^ ^ ^
+^ ^ ^ ^ ^ 
+^ ^ ^ ^ ^
+^ ^ ^ ^ ^
+^ ^ ^ ^ ^
+ */
+
+
 public class NestedLoop {
 
     public static void main(String[] args) {
@@ -8,6 +21,7 @@ public class NestedLoop {
                 System.out.print("^ ");
             }
             System.out.println();
+
         }
     }
 }
