@@ -2,12 +2,17 @@
 public class MixedOperators {
 
     public static void main(String[] args) {
-        int num1 = 7;
-        int num2 = 2;
-        int mod = num1 % num2;
-        int val1 = num1++;
-        int val2 = ++num2;
-        int mul1 = num1*num2;
+        byte num1 = 7;
+        byte num2 = 2;
+        byte bodmas;
+        float n = 5.5f;
+
+        bodmas = (byte) (num1 / num2 - num1 + num2 * num1 - num1);
+        byte mod = (byte) (num1 % num2);
+        byte val1 = num1++;
+        byte val2 = ++num2;
+        byte mul1 = (byte) (num1 * num2);
+        System.out.println("value of bodmas = " + bodmas);
         System.out.println("Post increment value = " + val1);
         System.out.println("Pre increment value = " + val2);
         System.out.println(++mod);
@@ -19,7 +24,7 @@ public class MixedOperators {
             if (num1 == 7) {
                 System.out.println("This is Seven");
 
-            }else System.out.println("**");
+            } else System.out.println("**");
         }
         System.out.println("Final value of num1 = " + num1);
         System.out.println("Final value of num2 = " + num2);
