@@ -1,11 +1,12 @@
 public class Printstarbykali {
     public static void main(String[] args) {
-        int i,j;
-        for(i=0;i<4;i++)
+        byte row;
+        byte column;
+        for(row=0;row<4;row++)
         {
-            for(j=0;j<5;j++)
+            for(column=0;column<5;column++)
             {
-                if(i%3!=0 && j%2!=0)
+                if(row%3!=0 && column%2!=0)
                 {
                     System.out.print("\t");
                 }
