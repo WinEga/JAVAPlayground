@@ -1,8 +1,10 @@
 /*
 Definition - What does Inheritance mean in JAVA?
 Inheritance is a mechanism wherein a new class is derived(extended) from an existing class.
-Super and Sub class in JAVA when we do single level inheritance
+Super and Sub class in JAVA when we do single/multi level inheritance
 Here is example for inheritance at multi level
+
+Is A (Class)/ Has A (Objects)
 
 Will JAVA support multiple inheritance???
 */
@@ -35,15 +37,23 @@ class Calculator4 extends Calculator3 {
 
 }
 
+class Calculator5 extends Calculator4 {
+    public double div(double i, double j) {
+        return i / j;
+    }
+
+}
+
 public class Inheritance {
 
     public static void main(String[] args) {
 
-        Calculator4 obj1 = new Calculator4();
+        Calculator5 obj1 = new Calculator5();
         System.out.println(obj1.add(8, 5));
         System.out.println(obj1.sub(8, 5));
         System.out.println(obj1.mul(8, 5));
         System.out.println(obj1.rem(8, 5));
+        System.out.println(obj1.div(22, 7));
 
     }
 }
