@@ -32,8 +32,11 @@ public class DataTypeRange {
         System.out.println(f);
         System.out.println(g +" Wow");
         System.out.println(h);
-        byte m= (byte)"We are the best".length();
+        byte m= (byte) "We are the best".length();
         System.out.println(m);
+        System.out.println("enjoy in java".toUpperCase());
+        System.out.println(d);
+        System.out.println("jdksfjkfjsdkljfl");
 
     }
 }
