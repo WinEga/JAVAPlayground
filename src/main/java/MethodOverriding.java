@@ -15,7 +15,7 @@ class Sup {
 }
 
 class Sub extends Sup {
-
+@Override
     public void display() {
         System.out.println("I am in sub class");
 
