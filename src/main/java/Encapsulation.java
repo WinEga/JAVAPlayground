@@ -6,6 +6,8 @@ Binding data with methods
 Encapsulation in Java is a process of wrapping code and data together into a single unit,
 for example, a capsule which is mixed of several medicines.
 
+We will reduce the number of line in code by using Lombok project.
+
  */
 
 class Employees {
