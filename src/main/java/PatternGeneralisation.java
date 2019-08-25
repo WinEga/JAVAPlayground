@@ -8,7 +8,9 @@ public class PatternGeneralisation {
         byte midPoint;
         if (number < 2) {
             System.out.println("Please run again and enter positive number greater than 1");
+
         }
+
         if (number % 2 != 0) {
             midPoint = (byte) ((number + 1) / 2);
         } else {
