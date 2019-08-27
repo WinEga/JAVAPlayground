@@ -44,16 +44,24 @@ class Calculator5 extends Calculator4 {
 
 }
 
+class Calculator6 extends Calculator5 {
+    public double hun(double i, double j) {
+        return (i / j)*100;
+    }
+
+}
+
 public class Inheritance {
 
     public static void main(String[] args) {
 
-        Calculator5 obj1 = new Calculator5();
+        Calculator6 obj1 = new Calculator6();
         System.out.println(obj1.add(8, 5));
         System.out.println(obj1.sub(8, 5));
         System.out.println(obj1.mul(8, 5));
         System.out.println(obj1.rem(8, 5));
         System.out.println(obj1.div(22, 7));
+        System.out.println(obj1.hun(22, 7));
 
     }
 }
