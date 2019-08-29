@@ -3,8 +3,7 @@ Write a Java programme to print the following pattern
 
 *	*	*	*	*
 *		*		*
-   *	*	*
-*
+*		*		*
 *	*	*	*	*
 
  */
