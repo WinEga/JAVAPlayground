@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package TeamAssignment;
 
+import java.util.Scanner;
 public class VolumeSphere {
 
     public static void main(String [] args){

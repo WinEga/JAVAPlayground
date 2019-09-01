@@ -1,3 +1,5 @@
+package TeamAssignment;
+
 import java.util.Scanner;
 
 public class PatternGeneralisation {

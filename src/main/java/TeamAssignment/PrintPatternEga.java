@@ -8,7 +8,7 @@ Write a Java programme to print the following pattern
 
  */
 
-
+package TeamAssignment;
 public class PrintPatternEga {
 
     public static void main(String[] args) {
