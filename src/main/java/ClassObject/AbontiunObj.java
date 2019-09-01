@@ -1,3 +1,5 @@
+
+package ClassObject;
 public class AbontiunObj {
     int num1,var1,var2;
     public static void main(String[] ags)

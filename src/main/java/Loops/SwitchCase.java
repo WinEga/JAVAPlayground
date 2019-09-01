@@ -1,3 +1,4 @@
+package Loops;
 public class SwitchCase {
     public static void main(String[] args) {
         int day = 1;

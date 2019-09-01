@@ -9,6 +9,7 @@ Is A (Class)/ Has A (Objects)
 Will JAVA support multiple inheritance???
 */
 
+package OOPS;
 class Calculator1 {
     public int add(int i, int j) {
         return i + j;

@@ -4,6 +4,7 @@ Write a JAVA programme / program to multiple two given matrix 3x3
 
  */
 
+package Array;
 public class MatrixMultiplication {
     public static void main(String args[]) {
 //Data for two matrices a and b

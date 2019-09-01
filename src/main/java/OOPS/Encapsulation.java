@@ -9,7 +9,7 @@ for example, a capsule which is mixed of several medicines.
 We will reduce the number of line in code by using Lombok project.
 
  */
-
+package OOPS;
 class Employees {
     private int empId;
     private String name;

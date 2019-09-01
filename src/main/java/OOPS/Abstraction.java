@@ -25,7 +25,7 @@ abstract class Operation
     public abstract void div();
 }
 
-class A extends Operation {
+class Ab extends Operation {
     public void add(){
     }
     public void mul(){
@@ -38,7 +38,7 @@ class A extends Operation {
 
 public class Abstraction {
     public static void main(String[] args) {
-        Operation obj1 = new A();
+        Operation obj1 = new Ab();
 
 
     }

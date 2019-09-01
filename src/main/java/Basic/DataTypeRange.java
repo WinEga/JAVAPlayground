@@ -14,6 +14,7 @@ boolean	    not precisely       true or false
 
 */
 
+package Basic;
 public class DataTypeRange {
     public static void main(String[] args) {
         byte a = 30;

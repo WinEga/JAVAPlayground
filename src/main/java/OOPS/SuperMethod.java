@@ -1,3 +1,5 @@
+package OOPS;
+
 class A {
 
     public A() {

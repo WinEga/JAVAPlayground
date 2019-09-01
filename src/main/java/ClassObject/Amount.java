@@ -1,3 +1,4 @@
+package ClassObject;
 public class Amount {
         double balance;
     void Balan()

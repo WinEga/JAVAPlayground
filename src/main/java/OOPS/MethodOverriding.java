@@ -6,6 +6,7 @@ Sub-class overrides super class. let's see in the below example.
 
 Remove the display method in Sub class and see.
  */
+package OOPS;
 class Sup {
     public void display() {
         System.out.println("I am in super class");

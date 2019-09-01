@@ -1,4 +1,5 @@
 //This programme to find output without running the programme
+package Basic;
 public class MixedOperators {
 
     public static void main(String[] args) {

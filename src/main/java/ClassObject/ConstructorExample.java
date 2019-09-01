@@ -1,3 +1,4 @@
+package ClassObject;
 class maths {
 
     double sum;

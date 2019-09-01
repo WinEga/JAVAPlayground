@@ -1,3 +1,5 @@
+
+package Basic;
 class AddMultiNumbers{
 
     public int add(int ...n){
