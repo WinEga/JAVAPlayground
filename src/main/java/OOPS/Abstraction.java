@@ -21,14 +21,16 @@ package OOPS;
 abstract class Operation
 {
     public abstract void add();
-    public abstract void mul();
+    public abstract String mul();
     public abstract void div();
 }
 
 class Ab extends Operation {
     public void add(){
     }
-    public void mul(){
+    public String mul(){
+
+        return ("In multiplication method");
 
     }
     public void div(){
@@ -39,6 +41,7 @@ class Ab extends Operation {
 public class Abstraction {
     public static void main(String[] args) {
         Operation obj1 = new Ab();
+        System.out.println(obj1.mul());
 
 
     }
