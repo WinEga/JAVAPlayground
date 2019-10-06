@@ -11,17 +11,21 @@ package Basic;
 
 class Fan {
     final int J = 4;
+
     public void show(){
+
         System.out.println("Inside the show method");
+        //J=10;
     }
-    //J=40;
+
 }
 
-public class FinalKeyWord {
+public class FinalKeyWordInVariable {
     public static void main(String[] args) {
         Fan obj1 = new Fan();
         System.out.println(obj1.J);
         obj1.show();
-        
+
     }
+
 }
