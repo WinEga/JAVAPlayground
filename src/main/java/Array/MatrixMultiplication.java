@@ -1,39 +1,25 @@
-/*
-
-Write a JAVA programme / program to multiple two given matrix 3x3
-
- */
-
 package Array;
+
 public class MatrixMultiplication {
-    public static void main(String args[]) {
-//Data for two matrices a and b
-        byte a[][] = {
-                {1, 1, 2},
-                {2, 2, 2},
-                {3, 3, 3}
+
+    public static void main (String args[]) {
+        int x[][] = {
+                {1, 2, 3,},
+                {0, 5, 6,},
+                {-1, 8, 9,},
         };
 
-        byte b[][] = {
-                {3, 2, 1},
-                {3, 2, 1},
-                {3, 2, 1}
+        int y[][] = {
+                {1, 0, 7,},
+                {0, 5, 4,},
+                {0, 2, 1,},
         };
 
-        short c[][] = new short[a.length][b.length];  //3 rows and 3 columns
+        int z[][] = MatrixOperations.multiplyMatrices (x, y);
 
-//Multiplication of 2 matrices with same order
-        for (byte aRow = 0; aRow < a.length; aRow++) {
-            for (byte bColumn = 0; bColumn < b.length; bColumn++) {
-                c[aRow][bColumn] = 0;
-                for (byte runner = 0; runner < b.length; runner++) {
+        MatrixOperations.printMatrix (x, 1);
+        MatrixOperations.printMatrix (y, 2);
+        MatrixOperations.printMatrix (z, 3);
 
-                    c[aRow][bColumn] += a[aRow][runner] * b[runner][bColumn];
-
-                }
-                System.out.print(c[aRow][bColumn] + "\t");
-            }
-            System.out.println();
-        }
     }
 }
