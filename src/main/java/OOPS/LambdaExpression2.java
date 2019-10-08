@@ -6,16 +6,17 @@ lambda expressions implement the only abstract function and therefore implement 
 1) () -> System.out.println("Zero parameter lambda");
 2) (p) -> System.out.println("One parameter: " + p);
 3) (p1, p2) -> System.out.println("Multiple parameters: " + p1 + ", " + p2);
+
  */
 
 package OOPS;
+
 import com.vdurmont.emoji.EmojiParser;
 
 import java.util.ArrayList;
 
 public class LambdaExpression2 {
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         // Creating an ArrayList with elements
         // Team members name
         ArrayList<String> List = new ArrayList<>();
@@ -37,6 +38,8 @@ public class LambdaExpression2 {
 
         // Using lambda expression to print welcome message to Ram
         // of List
-        List.forEach(name -> { if (name == "Ram") System.out.println(result); });
+        List.forEach(name -> {
+            if (name == "Ram") System.out.println(result);
+        });
     }
 }
