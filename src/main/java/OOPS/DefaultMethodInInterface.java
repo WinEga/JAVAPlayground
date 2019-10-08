@@ -36,13 +36,13 @@ class PeopleImp implements People {
 public class DefaultMethodInInterface {
     public static void main(String[] args) {
 
-        People Obj1 = new PeopleImp();
+        People Obj1 = new PeopleImp();// creating an object from the defined concrete class PeopleImp
         Obj1.eat();
         Obj1.sleep();
         Obj1.walk();
 
         People Obj2 = () -> {
-        };// here creating an object without calling the concrete class
+        };// here creating an object without calling the concrete class PeopleImp
         Obj2.walk();
         Obj2.eat();
         Obj2.sleep();
