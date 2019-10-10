@@ -1,10 +1,11 @@
 package ExceptionsAndOthers;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class BufferReaderExample {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         double n = 0;
         System.out.println("Enter your SSLC mark : ");
         BufferedReader br = null;
@@ -26,5 +27,6 @@ public class BufferReaderExample {
             System.out.println("Requested to enter your mark");
 
         }
+        finally {br.close();}
     }
 }
