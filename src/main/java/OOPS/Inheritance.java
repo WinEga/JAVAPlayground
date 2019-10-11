@@ -57,12 +57,12 @@ public class Inheritance {
     public static void main(String[] args) {
 
         Calculator6 obj1 = new Calculator6();
-        System.out.println(obj1.add(8, 5));
-        System.out.println(obj1.sub(8, 5));
-        System.out.println(obj1.mul(8, 5));
-        System.out.println(obj1.rem(8, 5));
-        System.out.println(obj1.div(22, 7));
-        System.out.println(obj1.hun(22, 7));
+        System.out.println("Addition "+obj1.add(8, 5));
+        System.out.println("Subtraction "+obj1.sub(8, 5));
+        System.out.println("Multiplication "+obj1.mul(8, 5));
+        System.out.println("Reminder "+obj1.rem(8, 5));
+        System.out.println("Division "+obj1.div(22, 7));
+        System.out.println("Multiply by 100 "+obj1.hun(22, 7));
 
     }
 }
