@@ -24,9 +24,10 @@ public class BufferReaderExample {
 
 
         } catch (Exception e) {
-            System.out.println("Requested to enter your mark");
+            System.out.println("Requested to enter your mark(it should be a number)");
 
+        } finally {
+            br.close();
         }
-        finally {br.close();}
     }
 }
