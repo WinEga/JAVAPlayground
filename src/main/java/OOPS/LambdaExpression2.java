@@ -21,7 +21,7 @@ public class LambdaExpression2 {
         // Team members name
         ArrayList<String> List = new ArrayList<>();
         List.add("Ega");
-        List.add("Ram");
+        List.add("Ramkumar");
         List.add("Naveen");
         List.add("Priya");
         List.add("Sabitha");
