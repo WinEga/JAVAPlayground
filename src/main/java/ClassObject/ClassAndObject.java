@@ -17,6 +17,7 @@ public class ClassAndObject {
         obj.num1 = 4;
         obj.num2 = 5;
         obj.perform();
+        System.out.println(obj.result);
         obj.result=1_000_000_000;
         System.out.println(obj.result);
     }
