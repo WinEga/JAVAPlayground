@@ -11,6 +11,7 @@ public class MathExamples
         System.out.println("Sine value of "+a+" is: " +Math.sin(b));
         System.out.println("Cosine value of "+a+" is: " +Math.cos(b));
         System.out.println("Tangent value of "+a+" is: " +Math.tan(b));
+        System.out.println("Ega");
 
     }
 }
