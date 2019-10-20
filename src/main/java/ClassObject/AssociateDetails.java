@@ -4,15 +4,15 @@ public class AssociateDetails {
     String firstName, lastName, roll;
     double salary;
     int associateId;
-    byte exprience_years;
+    byte experienceYears;
 
-    public AssociateDetails(String firstName, String lastName, String roll, double salary, int associateId, byte exprience_years) {
+    public AssociateDetails(String firstName, String lastName, String roll, double salary, int associateId, byte experienceYears) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.roll = roll;
         this.salary = salary;
         this.associateId = associateId;
-        this.exprience_years = exprience_years;
+        this.experienceYears = experienceYears;
     }
 
     public String getFirstName() {
@@ -55,19 +55,12 @@ public class AssociateDetails {
         this.associateId = associateId;
     }
 
-    public byte getExprience_years() {
-        return exprience_years;
+    public byte getExperienceYears() {
+        return experienceYears;
     }
 
-    public void setExprience_years(byte exprience_years) {
-        this.exprience_years = exprience_years;
+    public void setExperienceYears(byte experienceYears) {
+        this.experienceYears = experienceYears;
     }
 
-    public void printAssociateDetails(){
-
-        System.out.println("Full name: " + firstName + " " + lastName);
-        System.out.println("Associate Id: "+associateId);
-        System.out.println("Salary: " + salary);
-
-    }
 }
